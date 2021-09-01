@@ -1,0 +1,194 @@
+*{
+  margin: 0px;
+}
+nav{
+  text-align: center;
+}
+.navi{
+  height: 56px;
+  width: 100%;
+}
+.logo{
+  padding: 5px;
+  float: left;
+}
+.link{
+  float: right;
+  padding: 19px;
+}
+.link a{
+  margin: 5px;
+  font-family: sans-serif;
+  font-size:12px;
+  font-weight: bold;
+  color: #0a0a0a;
+  text-decoration: none;
+  padding-left: 2px;
+}
+.content{
+  height: 600px;
+  width: 100%;
+  background-image: url("background-layer.jpg");
+  background-size:cover;
+}
+.text{
+  color: #cfcfcf;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 45%;
+  font-family: helvetica;
+  font-style: italic;
+}
+.boltiotlink{
+  position: relative;
+  top: 55%;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+#clicklink{
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+  font-weight: bold;
+}
+.copyrighttext{
+  text-align: center;
+  color: #cfcfcf;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.icon{
+  padding: 10px;
+  color: #cfcfcf;
+}
+.head{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #139139;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+.textaboutbolt{
+  text-align: center;
+  padding: 40px;
+  font-family: helvetica;
+}
+.details{
+  display: inline-flex;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.card{
+  width: 100%;
+  padding: 10px;
+}
+.card img{
+  width: 100%;
+}
+.subhead{
+  font-size: 25px;
+  font-family: helvetica;
+}
+.subtext{
+  font-family: helvetica;
+}
+.awardcards{
+  display: inline-flex;
+  width: 100%;
+}  
+.acard img{
+  width:100%;
+}
+.acard{
+  font-family: helvetica;
+  text-align: center;
+  width:100%;
+}
+.ahead{
+  font-size: 25px;
+  font-weight: bold;
+}
+.acard p{
+  margin-bottom: 50px;
+}
+.contact{
+  display: inline-flex;
+  font-family: helvetica;
+  width: 100%;
+}
+.hubspot{
+  width:100%;
+  padding:10px;
+  margin: 20px;
+}
+.contactdetail{
+  width:100%;
+  padding:10px;
+  margin: 20px;
+}
+.contacthead{
+  font-size: 25px;
+}
+.foot{
+  height: 60px;
+  background-color: #139139;
+  width: 100%;
+}
+.social{
+  float: right;
+}
+@media (min-width: 320px) and (max-width: 480px)
+{
+
+  .link{
+    background-color: #139139;
+    padding: 5px;
+    width: 100%;
+  }
+  .link a{
+    margin:5.2%;
+    color: whitesmoke;
+  }
+  .logo{
+    width: 100px;
+    padding: 12px;
+  }
+  .head{
+    padding-bottom: 10px;
+  }
+  .details{
+    width: 80%;
+    display: block;
+    padding: 10px;
+  }
+  .card{
+    padding: 10px;
+  }
+  .card img,.subtext{
+    width: 88%;
+  }
+  .awardcards{
+    display: block;
+  }
+  .acard img{
+    width: 70%;
+  }
+  .acard p{
+    padding:0px 30px 30px 30px;
+  }
+  .contact{
+    display: block;
+    width: 100%;
+  }
+  .hubspot,.contactdetail{
+    width:84%;
+  }
+ 
+
+}
+
+  
